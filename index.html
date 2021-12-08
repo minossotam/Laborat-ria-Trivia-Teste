@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>laboratória Trivia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+
+    <div class="header-container">
+	  	<h1>Game Laboratória</h1>
+      <p>Bem vinda!</p>
+    </div>
+
+	</header>
+
+  <div class="player-name-input">
+    <label>Primeiro, me diga seu nome:</label>
+    <input id="player-name" type="text" name="" value="" placeholder="Nome">
+    <button class="player-name-button" onclick = "welcomeName()" >Enviar</button>
+  </div>
+
+  <div class="menu-button">
+    <p id="name-start"></p>
+    <a class="menu-button-link" href="first-page.html">Começar!</a>
+  </div>
+
+
+
+<script>
+
+  function welcomeName(){
+    name = document.getElementById("player-name").value
+    name = alert(`Olá, ${name}! Adorei seu nome! Clique em começar!`)
+  }
+
+</script>
+
+
+  </body>
+</html>

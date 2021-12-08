@@ -1,0 +1,113 @@
+body{
+  background-color: rgb(255, 245, 238);
+  text-align: center;
+  margin: 2rem auto;
+  font-family: arial;
+}
+
+header{
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+label{
+  font-weight: bold;
+  font-size: 1.07rem;
+}
+
+.player-name-button{
+  background-color: rgb(72,61,139);
+  color: rgb(255, 245, 238);
+  border-style: none;
+  border-radius: 25px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.player-name-button:hover{
+  cursor: pointer;
+  box-shadow: 0 0.2rem 0.7rem 0 gray;
+  background: rgb(106, 90, 205);
+  transform: scale(1.01);
+  transform: transform 100ms;
+}
+
+.question{
+  font-size: 1.3rem;
+}
+
+.choice-container{
+  display: flex;
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 25px;
+  background: rgb(72,61,139);
+  color: rgb(255, 245, 238);
+  font-size: 1.08rem;
+}
+
+.choice-container:hover{
+  cursor: pointer;
+  box-shadow: 0 0.2rem 0.7rem 0 gray;
+  background: rgb(106, 90, 205);
+  transform: scale(1.01);
+  transform: transform 100ms;
+}
+
+.choice-prefix{
+  padding: 0 1.5rem ;
+}
+
+.choice-text{
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.btn{
+  display: flex;
+  width: 50%;
+  margin: 1rem auto;
+  border-radius: 25px;
+  background: rgb(72,61,139);
+  color: rgb(255, 245, 238);
+  font-size: 1.08rem;
+  border: none
+}
+
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0.2rem 0.7rem 0 gray;
+  background: rgb(106, 90, 205);
+  transform: scale(1.01);
+  transform: transform 100ms;
+}
+
+.answer{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.menu-button{
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 40%;
+  text-align: center;
+}
+
+.menu-button-link{
+  padding: 0 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgb(72,61,139);
+}
+
+.menu-button-link:hover{
+  cursor: pointer;
+  text-shadow: 0 0.2rem 0.7rem 0 gray;
+  color: rgb(106, 90, 205);
+  font-size: 1.4rem;
+}

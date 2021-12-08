@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>laboratória Trivia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+
+    <div class="header-container">
+	  	<h1>Game Laboratória</h1>
+      <p>Oba! Agora o jogo vai começar! </p>
+		  <p>Prepare-se!</p>
+    </div>
+
+	</header>
+
+	<main>
+
+		<div class="question">Qual desses países não faz parte da América do Sul?</div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">A</p>
+      <p class="choice-text" >México</p>
+      <button id="buttonA" class="btn">Ver Resposta </button>
+
+    </div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">B</p>
+      <p class="choice-text">Colômbia</p>
+      <button id="buttonB" class="btn">Ver Resposta</button>
+    </div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">C</p>
+      <p class="choice-text">Equador</p>
+      <button id="buttonC" class="btn">Ver Resposta</button>
+    </div>
+
+    <p id="answer" class="answer"></p>
+
+
+    <div class="menu-button">
+    <a class="menu-button-link" href="second-page.html">Próxima Pergunta</a>
+    </div>
+	</main>
+
+
+
+
+<script>
+
+document.getElementById("buttonA").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "Parabéns,você acertou!! O México, é o único país da América Latina que também faz parte da América do Norte.";
+});
+
+document.getElementById("buttonB").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "Localizada no extremo norte da América do Sul, a Colômbia possui extensão territorial de 1.138.914 quilômetros quadrados, sendo o quarto maior país desse subcontinente. Tente de novo!";
+});
+
+document.getElementById("buttonC").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "Localizado no noroeste da América do Sul, o território do Equador limita-se com a Colômbia (ao norte), Peru (ao sul e a leste) e com o oceano Pacífico (a oeste). Tente de novo!";
+});
+
+</script>
+
+
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia Laboratória</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+
+    <div class="header-container">
+	  	<h1>Game Laboratória</h1>
+      <p>Agora vamos á segunda pergunta! </p>
+		  <p>Preparada?</p>
+    </div>
+
+	</header>
+
+	<main>
+
+		<div class="question">Qual dessas espaçonaves é a mais veloz?</div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">A</p>
+      <p class="choice-text" >USS Enterprise de Star Trek</p>
+      <button id="buttonA" class="btn">Ver Resposta</button>
+
+    </div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">B</p>
+      <p class="choice-text">Planet Express de Futurama</p>
+      <button id="buttonB" class="btn">Ver Resposta</button>
+    </div>
+
+    <div class="choice-container">
+      <p class="choice-prefix">C</p>
+      <p class="choice-text">Millennium Falcon de Star Wars</p>
+      <button id="buttonC" class="btn">Ver Resposta</button>
+    </div>
+
+    <p id="answer" class="answer"></p>
+
+    <div class="menu-button">
+    <a class="menu-button-link" href="first-page.html">Voltar</a>
+    <a class="menu-button-link" href="index.html">Recomeçar</a>
+    </div>
+
+	</main>
+
+
+
+<script>
+
+document.getElementById("buttonA").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "A USS Enterprise pode chegar a  8.323 vezes a velocidade da luz. Parece muito, mas, de acordo com os cientistas, demoraríamos 300 anos para chegar na galáxia mais próxima. Tente de novo!";
+});
+
+document.getElementById("buttonB").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "A Planet Express é movida a matéria escura, e seus estranhos personagens chegaram até as fronteiras do universo, mas essa ainda não é a espaçonave mais veloz da galáxia! Tente de novo!";
+});
+
+document.getElementById("buttonC").addEventListener("click", function() {
+  document.getElementById("answer").innerHTML = "Parabéns, você acertou! A Millennium Falcon é tão rápida que é conhecida como o “lixo espacial mais veloz da galáxia”.  E foi determinante para destruir a Estrela da Morte.";
+});
+
+</script>
+
+  </body>
+</html>
