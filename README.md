@@ -1,1 +1,1 @@
-# Laborat-ria-Trivia-Teste
+# Laboratoria-Trivia-Teste
